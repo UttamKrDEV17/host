@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: rgba(185, 255, 35, 0.3);
+}
+
+header{
+    height: 100px;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: rgb(102, 161, 13);
+    padding-top: 25px;
+    display: block;
+    padding-bottom: 30px;
+}
+
+img {
+    height: 95px;
+    margin-top: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.nav-list a:hover{
+    color: white;
+}
+
+.intro-hi{
+    font-size: 30px;
+    color: rgb(102, 161, 13);
+}
+
+.intro-name{
+    font-size: 75px;
+    color: rgb(64, 104, 5);
+}
+
+.intro-student{
+    font-size: 30px;
+    color: rgb(102, 161, 13);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 75px;
+}
+
+.shortcuts{
+    height: 350px;
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+.button{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(2, 118, 2);
+    border-radius: 15px;
+    background-color: rgba(185, 255, 35, 0.3);
+    box-shadow: 4px 4px rgb(2, 93, 2);
+}
+
+.button>a{
+    color: rgb(4, 56, 4);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button:hover,.button>a:hover{
+    background-color: green;
+    color:white;
+}
